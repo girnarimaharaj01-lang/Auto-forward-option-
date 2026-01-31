@@ -5,9 +5,9 @@ from telethon import errors
 
 class TelegramForwarder:
     def __init__(self, api_id, api_hash, phone_number):
-        self.api_id = api_id
-        self.api_hash = api_hash
-        self.phone_number = phone_number
+        self.api_id = 29777466
+        self.api_hash = 8271049323:AAHCNLRkj7wUrtI6i9dmG1Tc1RzQxLVCSvs
+        self.phone_number = +919913628880
         self.client = TelegramClient('session_' + phone_number, api_id, api_hash)
 
     async def list_chats(self):
