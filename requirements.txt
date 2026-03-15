@@ -1,1 +1,6 @@
 telethon
+Flask
+gunicorn
+pyrofork
+tgcrypto
+pyropatch
