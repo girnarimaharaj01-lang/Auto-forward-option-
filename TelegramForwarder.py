@@ -100,7 +100,7 @@ async def main():
     if api_id is None or api_hash is None or phone_number is None:
         api_id = input("29777466: ")
         api_hash = input("8271049323:AAHCNLRkj7wUrtI6i9dmG1Tc1RzQxLVCSvs: ")
-        phone_number = input("+919913628880: ")
+        phone_number = input("+917573912517: ")
         # Write credentials to file for future use
         write_credentials(api_id, api_hash, phone_number)
 
