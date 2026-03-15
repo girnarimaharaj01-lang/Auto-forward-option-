@@ -127,3 +127,5 @@ async def main():
 # Start the event loop and run the main function
 if __name__ == "__main__":
     asyncio.run(main())
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
